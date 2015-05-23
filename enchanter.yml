@@ -35,25 +35,18 @@ skillPoints: 10
 skillPointsPerLevel: 0.1
 
 skills:
-    ward:
-        level: 1
-        cost: 8
+    dodge:
+        level: 0
+        cost: 5
         vars:
-            soakchance: 50.0
+            soakchance: 60.0
             soak: 2
             dodgemod: 5
-    waterbolt:
-        level: 1
-        cost: 0
+    weaponmaster:
         vars:
-            damage: 5
-            chance: 75.5
-    enchanterspurge:
-        vars:
-            skillname: EnchantersPurge
-            chance: 50.5
-            damag: 8
-            weapons: "WOOD_SWORD,STONE_SWORD,GOLD_SWORD"
-
+            skillname: StaffMaster
+            chance: 90.5
+            damag: 5
+            weapons: "STICK"
     
     
