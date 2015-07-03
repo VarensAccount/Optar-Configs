@@ -1,0 +1,64 @@
+name: Enchanter
+frequency: 1000
+default: false
+healthperlevel: 0.5
+
+manaBonus: 15
+manaPerSecond: 2
+manaPerLevel: 0.2
+statmods:
+  str: 3
+  dex: 2
+  int: 3
+  wis: 4
+  con: 1
+  chr: 0
+
+allowedRaces:
+  - Merioi
+  - Mysmaal
+allowedGroups:
+  - ANY
+
+allowedArmour:
+  - ironarmor
+  - chainarmour
+  - diamondarmor
+allowedWeapons:
+  - IRON_SWORD
+  - DIAMOND_sWORD
+  - STONE_SWORD
+allowedTools:
+  - irontools
+  - diamondtools
+
+skillPoints: 10
+skillPointsPerLevel: 0.1
+
+skills:
+    dodge:
+        level: 0
+        cost: 5
+        vars:
+            soakchance: 60.0
+            soak: 2
+            dodgemod: 5
+    weaponmaster:
+        vars:
+            skillname: StaffMaster
+            chance: 90.5
+            damag: 5
+            weapons: "STICK"
+    immobilise:
+        level: 0
+        cost: 5
+        buildup: 0
+        delay: 0
+        duration: 5000
+        cooldown: 10000
+        vars:
+            speed: 0.0
+            distance: 10
+            radius: 5
+       
+    
